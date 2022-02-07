@@ -25,7 +25,11 @@ Still not confident with js. Borrowed heavily from various sources to make thing
 
 ## Deployed Website link
 
+https://utilrr.github.io/day-planner/
+
 ## My Repo link
+
+https://github.com/utilrr/day-planner
 
 ## Screenshots 
 
