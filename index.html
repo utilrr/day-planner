@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+     <!--Font Awesome Icons-->
+     <script src="https://kit.fontawesome.com/51e99565ca.js"></script>
+     <!--jQuery CDN-->
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+     <!-- Moment.js-->
+     <script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/moment.min.js"></script>
+     <!--Bootstrap CDN-->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Challenge #5 Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+        <!-- class="display-3" -->
+      <h1> Mark's Work Day Scheduler</h1>
+      <p class="lead">A basic app for organizing your current work day</p>
+    </header>
+
+     <!-- Date and time Display below header  -->
+    <section>
+      <div class="container text-center">
+        <h1 id="date"></h1>
+        <h1 id="time"></h1>
+      </div>
+    </section>
+
+      <!-- Timeblocks go here -->
+      <section id="schedule">
+        <div class="container">
+          <!-- 9 AM -->
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <div class="hour">
+                <p>9:00 AM</p>
+              </div>
+              <textarea class="hourNotes" id="09AM" rows="2" input type="text"></textarea>
+              <button class="saveBtn" id="09AMsave" title="Save text button for 9:00 AM" type="submit">
+                <i class="far fa-save"></i>
+              </button>
+            </div>
+          </div>
+          <!-- 10 AM -->
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <div class="hour">
+                <p>10:00 AM</p>
+              </div>
+              <textarea class="hourNotes" id="10AM" rows="2" input type="text"></textarea>
+              <button class="saveBtn" id="10AMsave" title="Save text button for 10:00 AM" type="submit">
+                <i class="far fa-save"></i>
+              </button>
+            </div>
+          </div>
+          <!-- 11 AM -->
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <div class="hour">
+                <p>11:00 AM</p>
+              </div>
+              <textarea class="hourNotes" id="11AM" rows="2" input type="text"></textarea>
+              <button class="saveBtn" id="11AMsave" title="Save text button for 11:00 AM" type="submit">
+                <i class="far fa-save"></i>
+              </button>
+            </div>
+          </div>
+          <!-- 12 PM -->
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <div class="hour">
+                <p>12:00 PM</p>
+              </div>
+              <textarea class="hourNotes" id="12PM" rows="2" input type="text"></textarea>
+              <button class="saveBtn" id="12PMsave" title="Save text button for 12:00 PM" type="submit">
+                <i class="far fa-save"></i>
+              </button>
+            </div>
+          </div>
+          <!-- 1 PM -->
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <div class="hour">
+                <p>1:00 PM</p>
+              </div>
+              <textarea class="hourNotes" id="01PM" rows="2" input type="text"></textarea>
+              <button class="saveBtn" id="01PMsave" title="Save text button for 1:00 PM" type="submit">
+                <i class="far fa-save"></i>
+              </button>
+            </div>
+          </div>
+          <!-- 2 PM -->
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <div class="hour">
+                <p>2:00 PM</p>
+              </div>
+              <textarea class="hourNotes" id="02PM" rows="2" input type="text"></textarea>
+              <button class="saveBtn" id="02PMsave" title="Save text button for 2:00 PM" type="submit">
+                <i class="far fa-save"></i>
+              </button>
+            </div>
+          </div>
+          <!-- 3 PM -->
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <div class="hour">
+                <p>3:00 PM</p>
+              </div>
+              <textarea class="hourNotes" id="03PM" rows="2" input type="text"></textarea>
+              <button class="saveBtn" id="03PMsave" title="Save text button for 3:00 PM" type="submit">
+                <i class="far fa-save"></i>
+              </button>
+            </div>
+          </div>
+          <!-- 4 PM -->
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <div class="hour">
+                <p>4:00 PM</p>
+              </div>
+              <textarea class="hourNotes" id="04PM" rows="2" input type="text"></textarea>
+              <button class="saveBtn" id="04PMsave" title="Save text button for 4:00 PM" type="submit">
+                <i class="far fa-save"></i>
+              </button>
+            </div>
+          </div>
+          <!-- 5 PM -->
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <div class="hour last-hour">
+                <p>5:00 PM</p>
+              </div>
+              <textarea class="hourNotes last-hourNotes" id="05PM" rows="2" input type="text"></textarea>
+              <button class="saveBtn" id="05PMsave" title="Save text button for 5:00 PM" type="submit">
+                <i class="far fa-save"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <script src="script.js"></script>
+  </body>
+</html>
