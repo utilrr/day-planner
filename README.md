@@ -17,9 +17,11 @@ The employee is using a daily planner to create a schedule.
 
 ## Technologies Used
 
-HTML, CSS, JavaScript
+HTML, CSS, JavaScript, jQuery, Moment.js, Bootstrap, lots of documentation, Font Awesome?, accessibility audit (Lighthouse) in DevTools, Chrome YouTube videos, etc.
 
 ## Challenges Faced
+
+Still not confident with js. Borrowed heavily from various sources to make things work. Tried to limit amount of colors used for accessibility-related issues.
 
 ## Deployed Website link
 
