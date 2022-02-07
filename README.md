@@ -21,7 +21,7 @@ HTML, CSS, JavaScript, jQuery, Moment.js, Bootstrap, lots of documentation, Font
 
 ## Challenges Faced
 
-Still not confident with js. Borrowed heavily from various sources to make things work. Tried to limit amount of colors used for accessibility-related issues.
+Still not confident with js. Borrowed heavily from various sources to make things work. Tried to limit amount of colors used for accessibility-related issues. Could not solve the accessibility error, "Form elements do not have associated labels" satisfactorily.  
 
 ## Deployed Website link
 
